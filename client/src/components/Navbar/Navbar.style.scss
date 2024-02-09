@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100vw;
+  justify-content: space-between;
+  background-color: black;
+  z-index: 1;
+  padding: 20px;
+}
+
+.logo {
+  max-width: 10vw;
+  max-height: 10vh;
+}
+
+button {
+  background-color: black;
+  margin-right: 40px;
+  color: white;
+  height: 35px;
+  width: 100px;
+  border-radius: 1.5rem;
+}
+
+button:hover {
+  background-color: rgb(41, 69, 147);
+  color: white;
+  transition: ease-in-out 0.3s;
+}

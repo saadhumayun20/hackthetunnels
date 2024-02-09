@@ -1,0 +1,31 @@
+.product-page{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: row;
+    padding-top: 15vh;
+}
+
+.product-page__product{
+    padding-left: 50px;
+}
+
+button{
+    margin-left: 50px;
+}
+
+.grid-1{
+    width: 50%;
+    height: 100%;
+}
+
+.grid-2{
+    width: 50%;
+    height: 100%;
+    border-right: 1px solid black;
+}
+
+img{
+    width: 90%;
+    height: 85vh;
+}

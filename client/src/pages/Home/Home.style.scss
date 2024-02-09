@@ -1,0 +1,21 @@
+.home-page {
+  display: flex;
+  flex-wrap:wrap;
+  gap: 16px; 
+  padding-top: 15vh;
+
+  &title {
+    color: red;
+  }
+
+  &products {
+    display: flex;
+    flex-direction: column;
+
+    a {
+
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+}
